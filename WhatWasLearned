@@ -1,0 +1,56 @@
+The command to commit to the remote repository, is git push 
+
+The command to merge our local repo with the data from the remote repo, is the git push command. 
+
+git clone is how you clone the remote repository
+
+master branch is local, whereas the main branch is used for remote repositories. 
+
+The git init command
+
+Personal access token in github is
+
+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 
+
+git push origin [BranchName] is how you push to the remote repo. 
+
+the git fetch command pulls all changes from remote, but does not make any changes to local machine. 
+
+Git clone is usually a one time activity, which gets all of the files and data associated, whereas git push and pull only gets and adds the changed files. 
+
+git diff origin/main shows the changes between the remote and local repos. 
+
+1. create a commit in remote repo
+2. git fetch from local
+git fetch
+3. compare the changes
+git status
+4. see the remote and local repo
+git branch -a
+5. compare local and remote branch
+git diff origin/main
+6. finally merge
+git merge origin/main
+
+
+
+you can get git file from another branch using git pull origin [BranchName]
+
+git push origin main will make your branch up to date.
+
+git push -u origin [BranchName]
+is used to add the branch to your local machine. 
+
+-u is the usage of upstream in order to push to branches other than the main branch. If there are any changes to any other branches, you MUST use the git push -u origin [BranchName] command. 
+
+
+
+CURRENT QUESTIONS:
+
+-What is the true purpose of the git init command?
+
+-Is there a way to make your remote repository revert to a previous state in the directory, such as making the header point back to a previous point.
+
+-How do you restore a file that has been added but not committed, then push it to the remote repository?
+
+
